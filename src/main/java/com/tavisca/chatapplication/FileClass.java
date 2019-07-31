@@ -1,16 +1,19 @@
 package com.tavisca.chatapplication;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
+import java.nio.ByteBuffer;
 
 public class FileClass {
     private String fileName;
 
     public FileClass(String fileName){
-        this.fileName = fileName;
+        this.fileName = "files/"+fileName;
     }
 
     public boolean isValidPath(){
-        File file  = new File("files/"+this.fileName);
+        File file  = new File(this.fileName);
         return file.exists();
     }
 
@@ -18,7 +21,7 @@ public class FileClass {
         StringBuilder stringBuilder = new StringBuilder("");
         if(isValidPath()){
             try {
-                File file  = new File("files/"+this.fileName);
+                File file  = new File(this.fileName);
                 BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
                 String line;
                 while ((line = bufferedReader.readLine()) != null) {
@@ -31,5 +34,14 @@ public class FileClass {
             }
         }
         return stringBuilder.toString();
+    }
+
+    public String getFileExtension(){
+        int i = this.fileName.lastIndexOf(".");
+        return this.fileName.substring(i+1);
+    }
+
+    public String getFileName(){
+        return this.fileName;
     }
 }

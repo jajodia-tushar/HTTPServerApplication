@@ -8,6 +8,8 @@ public class RequestData {
     public RequestData(String requestMethod, String reqeustResource) {
         this.requestMethod = requestMethod;
         this.reqeustResource = reqeustResource;
+        if(reqeustResource.equals("/"))
+            this.reqeustResource = "/index.html";
     }
 
     public String getRequestMethod() {
