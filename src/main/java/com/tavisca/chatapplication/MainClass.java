@@ -9,8 +9,7 @@ public class MainClass {
             ServerClass server = new ServerClass(8888);
             while(true){
                 ClientClass client = server.listen();
-                RequestData requestData = Parser.parse(client.read());
-                ClientHandlerThread clientHandlerThread = new ClientHandlerThread(client,requestData);
+                ClientHandlerThread clientHandlerThread = new ClientHandlerThread(client);
                 clientHandlerThread.start();
             }
         } catch (IOException e) {
