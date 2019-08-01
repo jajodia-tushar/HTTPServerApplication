@@ -7,7 +7,6 @@ public class ClientHandlerThread extends Thread{
 
     private static  final String STATUS_SERVER_DETAILS = "Server: Java HTTPServer \r\n";
 
-
     private static  final String STATUS_CONTENT_TYPE= "Content-Type: text/html\r\n";
 
     private static final String STATUS_CONTENT_LENGTH = "Content-Length: ";
@@ -28,7 +27,6 @@ public class ClientHandlerThread extends Thread{
             FileClass file = new FileClass(this.requestData.getReqeustResource());
             if(file.isValidPath()){
                 String outputString = prepareResponse(file.getContents(),200,file.getFileExtension());
-                System.out.println(outputString);
                 this.clientClass.write(outputString);
             }
             else{

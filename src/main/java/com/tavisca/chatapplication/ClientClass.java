@@ -14,11 +14,11 @@ public class ClientClass {
         this.requestData = this.read();
     }
 
-    public BufferedInputStream getInputStream() throws IOException {
+    private BufferedInputStream getInputStream() throws IOException {
         return new BufferedInputStream(this.socket.getInputStream());
     }
 
-    public BufferedOutputStream getOutputStream() throws IOException {
+    private BufferedOutputStream getOutputStream() throws IOException {
         return new BufferedOutputStream((this.socket.getOutputStream()));
     }
 

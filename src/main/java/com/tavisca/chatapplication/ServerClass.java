@@ -6,8 +6,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ServerClass {
-        ServerSocket serverSocket;
-
+        private ServerSocket serverSocket;
         public ServerClass(int port) throws IOException{
             this.serverSocket = new ServerSocket(port);
             System.out.println("Server Started at Port "+port);
