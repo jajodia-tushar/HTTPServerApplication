@@ -2,13 +2,13 @@ package com.tavisca.chatapplication;
 
 import java.io.IOException;
 
-public class MainClass {
+public class ServerCommunicationApp {
 
     public static void main(String[] args) {
         try {
-            ServerClass server = new ServerClass(8888);
+            Server server = new Server(8888);
             while(true){
-                ClientClass client = server.listen();
+                ClientWrapper client = server.listen();
                 ClientHandlerThread clientHandlerThread = new ClientHandlerThread(client);
                 clientHandlerThread.start();
             }

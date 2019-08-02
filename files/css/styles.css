@@ -22,3 +22,13 @@
       display: none; 
     }
   }
+
+  #myCarousel > div > div:nth-child(1) > img{
+    width: 600px;
+    height: 1350px;
+  }
+
+  #myCarousel > div > div.item.active > img{
+    width: 600px;
+    height: 1350px;
+  }
