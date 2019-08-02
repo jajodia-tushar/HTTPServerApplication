@@ -1,46 +1,31 @@
-# HTTPServerApplication
-This is the repository for the First Assignment. 
+HTTPServerApplication
+PROBLEM STATEMENT:
+Create a simple Web Server using Socket Programming in Java. The Server must be able to handle GET request from the browser and respond back the requested resources to the browser. The Server must also be able to handle multiple request. Contents like HTML, CSS, JS, JPEG, JPG files should be handled by the server. 
 
 
+SOLUTION:
+Classes Created: 
+•	Server
+o	This is the wrapper class for ServerSocket class in java. With functionality like 
+like listening for the client. 
+•	ClientWrapper
+o	This is the wrapper class for Socket class in java. With the functionality getHttpReqeust and sendResponse
+•	ClientHandlerThread
+o	This is the class for handling particular client. (Supporting Multithreading)
+•	HttpRequestParser
+o	This is a helper class for parsing the HttpRequest sent by the client. (Like getting the requested method(GET/POST) and the requested Resources
+(index.html aboutus.html )
+•	HttpRequestWrapper
+o	This is the wrapper class for the reqeustMethod and request Resource. (The one created in the above point in HttpRequestParser)
+•	FileHandler
+o	This is a helper class for reading the contents of the files requested by the client
+•	PrepareHeader
+o	This is the helper class for preparing different kinds of Http header for different types of files requested by the client.
+•	Response
+o	This is a wrapper class for the Response that is to be sent to the client. It has Content and header. 
+•	ServerCommunicationApp
+o	This is the main class that uses the above classes to make the whole application. 
 
-PROBLEM STATEMENT: 
 
-http://bit.do/httpserver
-
-Write a Java application to create a minimal HTTP web server that serves GET requests with requested html resources if available, else responds with error message.
-
-
-(Putting the pieces together)
-Directions to get started: 
-Create a simple TCP Socket  based server side app (using port 80). 
-		(Print whatever you receive on inputstream)
-In your browser goto “http://localhost” (put this in address bar and press enter)
-		(Observe the console for the print statements you made in step 1)
-Handle the requests based on the observations in step 2.
-Improve your app to support multiple concurrent requests using threads. (if not already  done in step 1).
-
-
-Expectations:
-When an html document requested through browser, it should  serve the request with appropriate response.
-Else should respond with an error message.
-
-
-
-Supporting Information:
-
-HTTP response format:
-
-PROTOCOL_WITH_VERSION RESPONSE_CODE STATUS         Example:=>    HTTP/1.1 200 OK
-Brief Description about the server.                                                    Example:=>    Server: My Java HTTP Server : 1.0
-Date: RESPONSE_DATE_AND_TIME		  
-Content-type: CONTENT_TYPE				     Example:=>    Content-type: text/html
-Content-length: SIZE_OF_RESPONSE_FILE		     Example:=>    Content-length: 256
-NEW_LINE
-ACTUAL_FILE_CONTENT_BYTES
-
-References:
-https://www.tutorialspoint.com/http/http_requests
-https://www.tutorialspoint.com/http/http_responses
-https://www.w3.org/Protocols/rfc2616/rfc2616.html
-https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3
-
+Control Flow:
+	
