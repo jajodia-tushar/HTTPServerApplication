@@ -121,3 +121,2400 @@
   <thread>1</thread>
   <message>A new Client has been Accepted</message>
 </record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T11:07:01.786624700Z</date>
+  <millis>1565176021786</millis>
+  <nanos>624700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>1</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T11:31:30.469469800Z</date>
+  <millis>1565177490469</millis>
+  <nanos>469800</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>1</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T11:47:41.657336200Z</date>
+  <millis>1565178461657</millis>
+  <nanos>336200</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T12:48:35.093311900Z</date>
+  <millis>1565182115093</millis>
+  <nanos>311900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T12:55:07.814412Z</date>
+  <millis>1565182507814</millis>
+  <nanos>412000</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T12:56:27.718097200Z</date>
+  <millis>1565182587718</millis>
+  <nanos>97200</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T12:57:59.714574400Z</date>
+  <millis>1565182679714</millis>
+  <nanos>574400</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>19</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:02:18.242583700Z</date>
+  <millis>1565182938242</millis>
+  <nanos>583700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>19</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:02:33.718896500Z</date>
+  <millis>1565182953718</millis>
+  <nanos>896500</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>19</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:03:36.804965700Z</date>
+  <millis>1565183016804</millis>
+  <nanos>965700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>19</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:05:12.458760400Z</date>
+  <millis>1565183112458</millis>
+  <nanos>760400</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:06:23.529442200Z</date>
+  <millis>1565183183529</millis>
+  <nanos>442200</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:07:01.852882500Z</date>
+  <millis>1565183221852</millis>
+  <nanos>882500</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:08:02.216071800Z</date>
+  <millis>1565183282216</millis>
+  <nanos>71800</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:08:32.257543800Z</date>
+  <millis>1565183312257</millis>
+  <nanos>543800</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:09:21.972288900Z</date>
+  <millis>1565183361972</millis>
+  <nanos>288900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:13:54.885038400Z</date>
+  <millis>1565183634885</millis>
+  <nanos>38400</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:16:42.321436700Z</date>
+  <millis>1565183802321</millis>
+  <nanos>436700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:17:42.073441500Z</date>
+  <millis>1565183862073</millis>
+  <nanos>441500</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:19:26.810526500Z</date>
+  <millis>1565183966810</millis>
+  <nanos>526500</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:19:39.917617300Z</date>
+  <millis>1565183979917</millis>
+  <nanos>617300</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:19:49.480348100Z</date>
+  <millis>1565183989480</millis>
+  <nanos>348100</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:20:55.580247900Z</date>
+  <millis>1565184055580</millis>
+  <nanos>247900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:20:55.678828500Z</date>
+  <millis>1565184055678</millis>
+  <nanos>828500</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:20:55.678828500Z</date>
+  <millis>1565184055678</millis>
+  <nanos>828500</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:21:07.836318200Z</date>
+  <millis>1565184067836</millis>
+  <nanos>318200</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.874086400Z</date>
+  <millis>1565184067874</millis>
+  <nanos>86400</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.874086400Z</date>
+  <millis>1565184067874</millis>
+  <nanos>86400</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.889708600Z</date>
+  <millis>1565184067889</millis>
+  <nanos>708600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.905333200Z</date>
+  <millis>1565184067905</millis>
+  <nanos>333200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.905333200Z</date>
+  <millis>1565184067905</millis>
+  <nanos>333200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.905333200Z</date>
+  <millis>1565184067905</millis>
+  <nanos>333200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.905333200Z</date>
+  <millis>1565184067905</millis>
+  <nanos>333200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:21:07.905333200Z</date>
+  <millis>1565184067905</millis>
+  <nanos>333200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:24:46.431905500Z</date>
+  <millis>1565184286431</millis>
+  <nanos>905500</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:25:03.064214Z</date>
+  <millis>1565184303064</millis>
+  <nanos>214000</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:29:37.797325600Z</date>
+  <millis>1565184577797</millis>
+  <nanos>325600</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:29:57.096725600Z</date>
+  <millis>1565184597096</millis>
+  <nanos>725600</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:31:24.970562900Z</date>
+  <millis>1565184684970</millis>
+  <nanos>562900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:31:55.121690600Z</date>
+  <millis>1565184715121</millis>
+  <nanos>690600</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:34:09.451010100Z</date>
+  <millis>1565184849451</millis>
+  <nanos>10100</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:35:19.226509400Z</date>
+  <millis>1565184919226</millis>
+  <nanos>509400</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:37:41.454383700Z</date>
+  <millis>1565185061454</millis>
+  <nanos>383700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.492144800Z</date>
+  <millis>1565185061492</millis>
+  <nanos>144800</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.492144800Z</date>
+  <millis>1565185061492</millis>
+  <nanos>144800</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.492144800Z</date>
+  <millis>1565185061492</millis>
+  <nanos>144800</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.492144800Z</date>
+  <millis>1565185061492</millis>
+  <nanos>144800</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.492144800Z</date>
+  <millis>1565185061492</millis>
+  <nanos>144800</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.507768200Z</date>
+  <millis>1565185061507</millis>
+  <nanos>768200</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.523392400Z</date>
+  <millis>1565185061523</millis>
+  <nanos>392400</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:37:41.554640300Z</date>
+  <millis>1565185061554</millis>
+  <nanos>640300</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:38:37.116707900Z</date>
+  <millis>1565185117116</millis>
+  <nanos>707900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:39:31.935859700Z</date>
+  <millis>1565185171935</millis>
+  <nanos>859700</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.982730600Z</date>
+  <millis>1565185171982</millis>
+  <nanos>730600</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.982730600Z</date>
+  <millis>1565185171982</millis>
+  <nanos>730600</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:31.998355600Z</date>
+  <millis>1565185171998</millis>
+  <nanos>355600</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.013979300Z</date>
+  <millis>1565185172013</millis>
+  <nanos>979300</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.013979300Z</date>
+  <millis>1565185172013</millis>
+  <nanos>979300</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.013979300Z</date>
+  <millis>1565185172013</millis>
+  <nanos>979300</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.013979300Z</date>
+  <millis>1565185172013</millis>
+  <nanos>979300</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.013979300Z</date>
+  <millis>1565185172013</millis>
+  <nanos>979300</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.020487300Z</date>
+  <millis>1565185172020</millis>
+  <nanos>487300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.036118200Z</date>
+  <millis>1565185172036</millis>
+  <nanos>118200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:39:32.051742400Z</date>
+  <millis>1565185172051</millis>
+  <nanos>742400</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:40:03.487782300Z</date>
+  <millis>1565185203487</millis>
+  <nanos>782300</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:40:10.163672400Z</date>
+  <millis>1565185210163</millis>
+  <nanos>672400</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:40:16.938932900Z</date>
+  <millis>1565185216938</millis>
+  <nanos>932900</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:16.985811300Z</date>
+  <millis>1565185216985</millis>
+  <nanos>811300</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.001435900Z</date>
+  <millis>1565185217001</millis>
+  <nanos>435900</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.001435900Z</date>
+  <millis>1565185217001</millis>
+  <nanos>435900</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.001435900Z</date>
+  <millis>1565185217001</millis>
+  <nanos>435900</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.001435900Z</date>
+  <millis>1565185217001</millis>
+  <nanos>435900</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.001435900Z</date>
+  <millis>1565185217001</millis>
+  <nanos>435900</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.017059300Z</date>
+  <millis>1565185217017</millis>
+  <nanos>59300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.039194200Z</date>
+  <millis>1565185217039</millis>
+  <nanos>194200</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:40:17.054825100Z</date>
+  <millis>1565185217054</millis>
+  <nanos>825100</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:42:04.146317200Z</date>
+  <millis>1565185324146</millis>
+  <nanos>317200</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-07T13:42:14.064478100Z</date>
+  <millis>1565185334064</millis>
+  <nanos>478100</nanos>
+  <sequence>1</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.124840700Z</date>
+  <millis>1565185334124</millis>
+  <nanos>840700</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.124840700Z</date>
+  <millis>1565185334124</millis>
+  <nanos>840700</nanos>
+  <sequence>2</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.134904300Z</date>
+  <millis>1565185334134</millis>
+  <nanos>904300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.134904300Z</date>
+  <millis>1565185334134</millis>
+  <nanos>904300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.134904300Z</date>
+  <millis>1565185334134</millis>
+  <nanos>904300</nanos>
+  <sequence>3</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.155063500Z</date>
+  <millis>1565185334155</millis>
+  <nanos>63500</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.155063500Z</date>
+  <millis>1565185334155</millis>
+  <nanos>63500</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.155063500Z</date>
+  <millis>1565185334155</millis>
+  <nanos>63500</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.155063500Z</date>
+  <millis>1565185334155</millis>
+  <nanos>63500</nanos>
+  <sequence>4</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.165154Z</date>
+  <millis>1565185334165</millis>
+  <nanos>154000</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.165154Z</date>
+  <millis>1565185334165</millis>
+  <nanos>154000</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.165154Z</date>
+  <millis>1565185334165</millis>
+  <nanos>154000</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.165154Z</date>
+  <millis>1565185334165</millis>
+  <nanos>154000</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.165154Z</date>
+  <millis>1565185334165</millis>
+  <nanos>154000</nanos>
+  <sequence>5</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.193311300Z</date>
+  <millis>1565185334193</millis>
+  <nanos>311300</nanos>
+  <sequence>6</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.215489700Z</date>
+  <millis>1565185334215</millis>
+  <nanos>489700</nanos>
+  <sequence>7</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
+<record>
+  <date>2019-08-07T13:42:14.235680800Z</date>
+  <millis>1565185334235</millis>
+  <nanos>680800</nanos>
+  <sequence>8</sequence>
+  <logger>com.tavisca.chatapplication.Server</logger>
+  <level>INFO</level>
+  <class>com.tavisca.chatapplication.Server</class>
+  <method>listen</method>
+  <thread>16</thread>
+  <message>A new Client has been Accepted</message>
+</record>
