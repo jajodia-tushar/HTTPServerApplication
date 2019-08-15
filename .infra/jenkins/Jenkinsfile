@@ -6,7 +6,8 @@ pipeline {
             steps {
 				echo "Building The Project Chat-Application"
 				sh """
-					gradle build -x test	
+					chmod +x gradlew
+					gradlew build -x test	
 				"""
 				echo "Building Completed"
             }
@@ -15,7 +16,8 @@ pipeline {
             steps {
                 echo "Testing The Project Chat-Application"
 				sh """
-					gradle test
+					chmod +x gradlew
+					gradlew test
 				
 				"""
 				echo "Testing Completed"
@@ -25,6 +27,7 @@ pipeline {
             steps {
                 echo "Deploying The Project Chat-Application"
 				sh """
+					chmod +x docker
 					docker build -t "chatapplication" -f .infra/docker/Dockerfile 
 				"""
             }
