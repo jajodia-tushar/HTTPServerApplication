@@ -3,7 +3,6 @@ plugins {
 }
 
 group 'com.tavisca.ChatApplication'
-version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -21,7 +20,7 @@ test {
 }
 
 jar{
-    baseName = 'files'
+    baseName = 'chatApplication'
     from('files') {
         include 'files/*'
     }
