@@ -5,8 +5,9 @@ plugins {
 group 'com.tavisca.ChatApplication'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.10
-targetCompatibility = 1.10
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 repositories {
     mavenCentral()
 }
@@ -17,4 +18,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+jar{
+    baseName = 'files'
+    from('files') {
+        include 'files/*'
+    }
+    manifest{
+        attributes 'Main-class':'com.tavisca.chatapplication.ServerCommunicationApp'
+    }
 }

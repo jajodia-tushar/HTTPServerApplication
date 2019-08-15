@@ -1,6 +1,5 @@
 package com.tavisca.chatapplication;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -20,14 +19,20 @@ public class ServerTest {
     @BeforeAll
    static void init(){
             mainThread = new Thread(()->{
-            try {
-                Server server = new Server(8888);
+                Server server = null;
+                try {
+                server = new Server(8888);
                 while(true){
                     new ClientHandlerThread(server.listen()).start();
                 }
             } catch (IOException e) {
-                e.printStackTrace();
-            }
+                    e.printStackTrace();
+                    try {
+                        server.close();
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
+                }
         });
         mainThread.start();
     }
@@ -54,43 +59,6 @@ public class ServerTest {
     }
 
     @Test
-    void canRespondClient(){
-        try {
-            URL url = new URL("http","localhost",8888,"index.html");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.connect();
-
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
-            StringBuilder content = new StringBuilder("");
-            String line = "";
-            while((line = bufferedReader.readLine()) != null){
-                content.append(line);
-            }
-            assertTrue(content.toString().contains("html"));
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test
-    void canRespondWithErrorCode(){
-        try {
-            URL url = new URL("http","localhost",8888,"wrongFile.html");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-            urlConnection.connect();
-
-            int expectedResponseCode = 404;
-            int actualResponseCode = urlConnection.getResponseCode();
-
-            assertEquals(expectedResponseCode,actualResponseCode);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test
     void canRespondWithImages(){
         try {
             URL url = new URL("http","localhost",8888,"images/about.jpg");
@@ -106,9 +74,23 @@ public class ServerTest {
         }
     }
 
-    @AfterAll
-    static void destroy(){
-        if(mainThread.isAlive())
-            mainThread.stop();
+    @Test
+    void canRespondClient(){
+        try {
+            URL url = new URL("http","localhost",8888,"index.html");
+            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            urlConnection.connect();
+
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
+            StringBuilder content = new StringBuilder();
+            String line = "";
+            while((line = bufferedReader.readLine()) != null){
+                content.append(line);
+            }
+            assertTrue(content.toString().contains("html"));
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

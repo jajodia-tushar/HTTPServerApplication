@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tavisca.chatapplication.ServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-15T10:15:25" hostname="RENTLAPT0018" time="0.166">
+  <properties/>
+  <testcase name="canAcceptMultipleClient()" classname="com.tavisca.chatapplication.ServerTest" time="0.144"/>
+  <testcase name="canRespondClient()" classname="com.tavisca.chatapplication.ServerTest" time="0.009"/>
+  <testcase name="canRespondWithImages()" classname="com.tavisca.chatapplication.ServerTest" time="0.008"/>
+  <testcase name="canAcceptNewClient()" classname="com.tavisca.chatapplication.ServerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 15, 2019 3:45:25 PM com.tavisca.chatapplication.Server <init>
+INFO: Server has been started at port --->8888
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+Aug 15, 2019 3:45:26 PM com.tavisca.chatapplication.Server listen
+INFO: A new Client has been Accepted
+]]></system-err>
+</testsuite>
