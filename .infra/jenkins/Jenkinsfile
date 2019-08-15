@@ -7,7 +7,7 @@ pipeline {
 				echo "Building The Project Chat-Application"
 				sh """
 					chmod +x gradlew
-					gradlew build -x test	
+                    ./gradlew build -x test	
 				"""
 				echo "Building Completed"
             }
@@ -17,7 +17,7 @@ pipeline {
                 echo "Testing The Project Chat-Application"
 				sh """
 					chmod +x gradlew
-					gradlew test
+                    ./gradlew test
 				
 				"""
 				echo "Testing Completed"
@@ -28,7 +28,7 @@ pipeline {
                 echo "Deploying The Project Chat-Application"
 				sh """
 					chmod +x docker
-					docker build -t "chatapplication" -f .infra/docker/Dockerfile 
+					./docker build -t "chatapplication" -f .infra/docker/Dockerfile 
 				"""
             }
         }
