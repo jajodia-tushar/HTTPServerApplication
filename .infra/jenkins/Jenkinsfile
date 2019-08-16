@@ -26,13 +26,15 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "Deploying The Project Chat-Application"
-				sh "docker build -t 'jajodiatushar/httpapplication:latest' -f .infra/docker/Dockerfile ."
+				sh "docker build -t 'httpapplication' -f .infra/docker/Dockerfile ."
             }
         }
 		
 		stage('publishing') {
             steps {
                 echo "publishing the application to DockerHub"
+				sh "docker login -u jajodiatushar -p abc123ABC!@#"
+				sh "docker tag httpapplication:latest jajodiatushar/httpapplication:latest"
 				sh "docker push jajodiatushar/httpapplication:latest"
             }
         }
