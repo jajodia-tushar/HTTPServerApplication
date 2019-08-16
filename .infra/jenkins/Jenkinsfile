@@ -27,8 +27,7 @@ pipeline {
             steps {
                 echo "Deploying The Project Chat-Application"
 				sh """
-					chmod +x docker
-					./docker build -t "chatapplication" -f .infra/docker/Dockerfile 
+					docker build -t "chatapplication" -f .infra/docker/Dockerfile 
 				"""
             }
         }
