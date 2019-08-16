@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "Deploying The Project Chat-Application"
-				sh "docker build -t 'httpapplication' -f .infra/docker/Dockerfile ."
+				sh "docker build --no-cache -t 'httpapplication' -f .infra/docker/Dockerfile ."
             }
         }
 		
