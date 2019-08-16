@@ -4,5 +4,6 @@ COPY build/libs/chatApplication.jar /var/www/chattingApplication/
 
 WORKDIR /var/www/chattingApplication/
 EXPOSE 8888
+RUN chmod 777 chatApplication.jar
 CMD ["java","-jar","chatApplication.jar"]
 
