@@ -33,6 +33,7 @@ pipeline {
 		stage('publishing') {
             steps {
                 echo "publishing the application to DockerHub"
+				sh "docker login --username=jajodiatushar"
 				sh "docker push jajodiatushar/chatapplication:latest"
 				
             }
