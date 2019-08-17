@@ -1,7 +1,11 @@
 pipeline {
     agent any
-
-    stages {
+	environment {
+    registry = "jajodiatushar/httpapplication"
+    registryCredential = ‘dockerhub’
+	}
+    
+	stages {
         stage('Build') {
             steps {
 				echo "Building The Project Chat-Application"
@@ -33,7 +37,6 @@ pipeline {
 		stage('publishing') {
             steps {
                 echo "publishing the application to DockerHub"
-				sh "docker login -u jajodiatushar -p abc123ABC!@#"
 				sh "docker tag httpapplication:latest jajodiatushar/httpapplication:latest"
 				sh "docker push jajodiatushar/httpapplication:latest"
             }
