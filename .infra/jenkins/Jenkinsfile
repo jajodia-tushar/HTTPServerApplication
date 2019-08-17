@@ -2,7 +2,7 @@ pipeline {
     agent any
 	environment {
     registry = "jajodiatushar/httpapplication"
-    registryCredential = ‘dockerhub’
+    registryCredential = "dockerhub"
 	}
     
 	stages {
