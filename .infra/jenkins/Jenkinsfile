@@ -1,0 +1,57 @@
+pipeline {
+    agent any
+	environment {
+    registry = "jajodiatushar/httpapplication"
+    registryCredential = "dockerhub"
+	}
+    
+	stages {
+        stage('Build') {
+            steps {
+				echo "Building The Project Chat-Application"
+				sh """
+					chmod +x gradlew
+                    ./gradlew build -x test	
+				"""
+				echo "Building Completed"
+            }
+        }
+        stage('Test') {
+            steps {
+                echo "Testing The Project Chat-Application"
+				sh """
+					chmod +x gradlew
+                    ./gradlew test
+				
+				"""
+				echo "Testing Completed"
+            }
+        }
+		stage('Static Code Analysis') {
+            steps {
+                echo "Static code analysis in sonarcloud.io"
+				sh "./gradlew sonarqube \
+					-Dsonar.projectKey=httpapplication \
+					-Dsonar.organization=jajodiatushar \
+					-Dsonar.host.url=https://sonarcloud.io \
+					-Dsonar.login=38835a74fe3e97383412f25c4b393216b9429b29"
+            }
+        }
+		
+        stage('Deploy') {
+            steps {
+                echo "Deploying The Project Chat-Application"
+				sh "docker build --no-cache -t 'httpapplication' -f .infra/docker/Dockerfile ."
+            }
+        }
+		
+		stage('publishing') {
+            steps {
+                echo "publishing the application to DockerHub"
+				sh "docker login -u jajodiatushar -p abc123ABC!@#"
+				sh "docker tag httpapplication:latest jajodiatushar/httpapplication:latest"
+				sh "docker push jajodiatushar/httpapplication:latest"
+            }
+        }
+    }
+}

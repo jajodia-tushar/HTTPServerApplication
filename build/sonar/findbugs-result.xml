@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1566189829863" analysisTimestamp="1566194583178" release="">
+  <Project>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\ClientHandlerThread.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\ClientWrapper.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\FileHandler.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\HttpRequestParser.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\HttpRequestWrapper.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\PrepareHeader.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\Response.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\Server.class</Jar>
+    <Jar>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main\com\tavisca\chatapplication\ServerCommunicationApp.class</Jar>
+    <AuxClasspathEntry>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\tjajodia\IdeaProjects\How Web Works\Day-3\ChatApplication\build\sonar</WrkDir>
+  </Project>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="19e9a2af4b8ef2d5ed375e43af84e480" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>java/io/File.&lt;init&gt;(Ljava/lang/String;)V reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.tavisca.chatapplication.FileHandler" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="8" end="50" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+        <Message>At FileHandler.java:[lines 8-50]</Message>
+      </SourceLine>
+      <Message>In class com.tavisca.chatapplication.FileHandler</Message>
+    </Class>
+    <Method classname="com.tavisca.chatapplication.FileHandler" name="exists" signature="()Z" isStatic="false" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="13" end="14" startBytecode="0" endBytecode="72" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java"/>
+      <Message>In method com.tavisca.chatapplication.FileHandler.exists()</Message>
+    </Method>
+    <SourceLine classname="com.tavisca.chatapplication.FileHandler" primary="true" start="13" end="13" startBytecode="8" endBytecode="8" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+      <Message>At FileHandler.java:[line 13]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/tavisca/chatapplication/FileHandler.nameOfFile" role="Unknown source">
+      <Message>Unknown source com/tavisca/chatapplication/FileHandler.nameOfFile</Message>
+    </String>
+    <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="13" end="13" startBytecode="5" endBytecode="5" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+      <Message>At FileHandler.java:[line 13]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="9692bb35cdf24f31dcb48abcc8a4d0c" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>java/io/File.&lt;init&gt;(Ljava/lang/String;)V reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.tavisca.chatapplication.FileHandler" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="8" end="50" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+        <Message>At FileHandler.java:[lines 8-50]</Message>
+      </SourceLine>
+      <Message>In class com.tavisca.chatapplication.FileHandler</Message>
+    </Class>
+    <Method classname="com.tavisca.chatapplication.FileHandler" name="getFileContents" signature="()[B" isStatic="false" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="18" end="45" startBytecode="0" endBytecode="405" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java"/>
+      <Message>In method com.tavisca.chatapplication.FileHandler.getFileContents()</Message>
+    </Method>
+    <SourceLine classname="com.tavisca.chatapplication.FileHandler" primary="true" start="21" end="21" startBytecode="17" endBytecode="17" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+      <Message>At FileHandler.java:[line 21]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/tavisca/chatapplication/FileHandler.nameOfFile" role="Unknown source">
+      <Message>Unknown source com/tavisca/chatapplication/FileHandler.nameOfFile</Message>
+    </String>
+    <SourceLine classname="com.tavisca.chatapplication.FileHandler" start="21" end="21" startBytecode="14" endBytecode="14" sourcefile="FileHandler.java" sourcepath="com/tavisca/chatapplication/FileHandler.java">
+      <Message>At FileHandler.java:[line 21]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UNENCRYPTED_SERVER_SOCKET" priority="2" rank="7" abbrev="SECUSS" category="SECURITY" instanceHash="dbadda9cf84dd7b2b50835a8ade18f74" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="319">
+    <ShortMessage>Unencrypted Server Socket</ShortMessage>
+    <LongMessage>Unencrypted server socket (instead of SSLServerSocket)</LongMessage>
+    <Class classname="com.tavisca.chatapplication.Server" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.Server" start="13" end="29" sourcefile="Server.java" sourcepath="com/tavisca/chatapplication/Server.java">
+        <Message>At Server.java:[lines 13-29]</Message>
+      </SourceLine>
+      <Message>In class com.tavisca.chatapplication.Server</Message>
+    </Class>
+    <Method classname="com.tavisca.chatapplication.Server" name="&lt;init&gt;" signature="(I)V" isStatic="false" primary="true">
+      <SourceLine classname="com.tavisca.chatapplication.Server" start="13" end="18" startBytecode="0" endBytecode="138" sourcefile="Server.java" sourcepath="com/tavisca/chatapplication/Server.java"/>
+      <Message>In method new com.tavisca.chatapplication.Server(int)</Message>
+    </Method>
+    <SourceLine classname="com.tavisca.chatapplication.Server" primary="true" start="14" end="14" startBytecode="10" endBytecode="10" sourcefile="Server.java" sourcepath="com/tavisca/chatapplication/Server.java">
+      <Message>At Server.java:[line 14]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="PATH_TRAVERSAL_IN" abbrev="SECPTI" category="SECURITY" cweid="22">
+    <ShortDescription>Potential Path Traversal (file read)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter. 
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="http://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="http://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="UNENCRYPTED_SERVER_SOCKET" abbrev="SECUSS" category="SECURITY" cweid="319">
+    <ShortDescription>Unencrypted Server Socket</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+The communication channel used is not encrypted. The traffic could be read by an attacker intercepting the network traffic.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+Plain server socket (Cleartext communication):
+<pre>ServerSocket soc = new ServerSocket(1234);</pre>
+</p>
+<p>
+<b>Solution:</b><br/>
+SSL Server Socket (Secure communication):
+<pre>ServerSocket soc = SSLServerSocketFactory.getDefault().createServerSocket(1234);</pre>
+</p>
+<p>Beyond using an SSL server socket, you need to make sure your use of SSLServerSocketFactory does all the appropriate certificate validation checks to
+make sure you are not subject to man-in-the-middle attacks. Please read the OWASP Transport Layer Protection Cheat Sheet for details on how
+to do this correctly.
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2010-A9">OWASP: Top 10 2010-A9-Insufficient Transport Layer Protection</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure">OWASP: Top 10 2013-A6-Sensitive Data Exposure</a><br/>
+<a href="https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet">OWASP: Transport Layer Protection Cheat Sheet</a><br/>
+<a href="http://projects.webappsec.org/w/page/13246945/Insufficient%20Transport%20Layer%20Protection">WASC-04: Insufficient Transport Layer Protection</a><br/>
+<a href="http://cwe.mitre.org/data/definitions/319.html">CWE-319: Cleartext Transmission of Sensitive Information</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECPTI">
+    <Description>Potential Path Traversal (file read)</Description>
+  </BugCode>
+  <BugCode abbrev="SECUSS">
+    <Description>Unencrypted Server Socket</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 19 Aug 2019 10:13:49 +0530" total_classes="9" referenced_classes="71" total_bugs="3" total_size="167" num_packages="1" java_version="10" vm_version="10+46" cpu_seconds="14.09" clock_seconds="4.51" peak_mbytes="379.29" alloc_mbytes="1024.00" gc_seconds="0.06" priority_2="3">
+    <FileStats path="com/tavisca/chatapplication/ClientHandlerThread.java" bugCount="0" size="24"/>
+    <FileStats path="com/tavisca/chatapplication/ClientWrapper.java" bugCount="0" size="27"/>
+    <FileStats path="com/tavisca/chatapplication/FileHandler.java" bugCount="2" size="36" bugHash="034fd0824e10ad7c59e0f40d040e647e"/>
+    <FileStats path="com/tavisca/chatapplication/HttpRequestParser.java" bugCount="0" size="6"/>
+    <FileStats path="com/tavisca/chatapplication/HttpRequestWrapper.java" bugCount="0" size="14"/>
+    <FileStats path="com/tavisca/chatapplication/PrepareHeader.java" bugCount="0" size="12"/>
+    <FileStats path="com/tavisca/chatapplication/Response.java" bugCount="0" size="12"/>
+    <FileStats path="com/tavisca/chatapplication/Server.java" bugCount="1" size="19" bugHash="c0ae8fb0071b9f1a7941d185f29e2e7f"/>
+    <FileStats path="com/tavisca/chatapplication/ServerCommunicationApp.java" bugCount="0" size="17"/>
+    <PackageStats package="com.tavisca.chatapplication" total_bugs="3" total_types="9" total_size="167" priority_2="3">
+      <ClassStats class="com.tavisca.chatapplication.ClientHandlerThread" sourceFile="ClientHandlerThread.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.ClientWrapper" sourceFile="ClientWrapper.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.FileHandler" sourceFile="FileHandler.java" interface="false" size="36" bugs="2" priority_2="2"/>
+      <ClassStats class="com.tavisca.chatapplication.HttpRequestParser" sourceFile="HttpRequestParser.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.HttpRequestWrapper" sourceFile="HttpRequestWrapper.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.PrepareHeader" sourceFile="PrepareHeader.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.Response" sourceFile="Response.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.tavisca.chatapplication.Server" sourceFile="Server.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="com.tavisca.chatapplication.ServerCommunicationApp" sourceFile="ServerCommunicationApp.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="542" invocations="561" avgMicrosecondsPerInvocation="967" maxMicrosecondsPerInvocation="39913" standardDeviationMicrosecondsPerInvocation="2955"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="277" invocations="567" avgMicrosecondsPerInvocation="489" maxMicrosecondsPerInvocation="19216" standardDeviationMicrosecondsPerInvocation="1027"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="173" invocations="71" avgMicrosecondsPerInvocation="2440" maxMicrosecondsPerInvocation="30402" standardDeviationMicrosecondsPerInvocation="4984"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="147" invocations="71" avgMicrosecondsPerInvocation="2083" maxMicrosecondsPerInvocation="26101" standardDeviationMicrosecondsPerInvocation="4183"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="120" invocations="182" avgMicrosecondsPerInvocation="662" maxMicrosecondsPerInvocation="10315" standardDeviationMicrosecondsPerInvocation="1184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="85" invocations="119" avgMicrosecondsPerInvocation="721" maxMicrosecondsPerInvocation="35724" standardDeviationMicrosecondsPerInvocation="3442"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="81" invocations="29" avgMicrosecondsPerInvocation="2805" maxMicrosecondsPerInvocation="73001" standardDeviationMicrosecondsPerInvocation="13272"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="76" invocations="526" avgMicrosecondsPerInvocation="146" maxMicrosecondsPerInvocation="5678" standardDeviationMicrosecondsPerInvocation="429"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="65" invocations="71" avgMicrosecondsPerInvocation="925" maxMicrosecondsPerInvocation="15679" standardDeviationMicrosecondsPerInvocation="2481"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="48" invocations="29" avgMicrosecondsPerInvocation="1660" maxMicrosecondsPerInvocation="12894" standardDeviationMicrosecondsPerInvocation="2851"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="47" invocations="29" avgMicrosecondsPerInvocation="1648" maxMicrosecondsPerInvocation="12936" standardDeviationMicrosecondsPerInvocation="2697"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="43" invocations="32" avgMicrosecondsPerInvocation="1362" maxMicrosecondsPerInvocation="18356" standardDeviationMicrosecondsPerInvocation="3256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="40" invocations="71" avgMicrosecondsPerInvocation="577" maxMicrosecondsPerInvocation="5298" standardDeviationMicrosecondsPerInvocation="1065"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="39" invocations="29" avgMicrosecondsPerInvocation="1363" maxMicrosecondsPerInvocation="17509" standardDeviationMicrosecondsPerInvocation="3190"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="37" invocations="71" avgMicrosecondsPerInvocation="533" maxMicrosecondsPerInvocation="7982" standardDeviationMicrosecondsPerInvocation="1289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="37" invocations="29" avgMicrosecondsPerInvocation="1305" maxMicrosecondsPerInvocation="9984" standardDeviationMicrosecondsPerInvocation="2121"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="37" invocations="32" avgMicrosecondsPerInvocation="1166" maxMicrosecondsPerInvocation="17413" standardDeviationMicrosecondsPerInvocation="2981"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="36" invocations="71" avgMicrosecondsPerInvocation="520" maxMicrosecondsPerInvocation="16456" standardDeviationMicrosecondsPerInvocation="1952"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="36" invocations="71" avgMicrosecondsPerInvocation="507" maxMicrosecondsPerInvocation="7786" standardDeviationMicrosecondsPerInvocation="1148"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="35" invocations="71" avgMicrosecondsPerInvocation="499" maxMicrosecondsPerInvocation="7250" standardDeviationMicrosecondsPerInvocation="998"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetector" totalMilliseconds="29" invocations="9" avgMicrosecondsPerInvocation="3310" maxMicrosecondsPerInvocation="28429" standardDeviationMicrosecondsPerInvocation="8881"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="26" invocations="71" avgMicrosecondsPerInvocation="368" maxMicrosecondsPerInvocation="3647" standardDeviationMicrosecondsPerInvocation="738"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="24" invocations="29" avgMicrosecondsPerInvocation="855" maxMicrosecondsPerInvocation="5339" standardDeviationMicrosecondsPerInvocation="1245"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
