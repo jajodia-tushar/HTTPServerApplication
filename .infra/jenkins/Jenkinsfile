@@ -27,6 +27,13 @@ pipeline {
 				echo "Testing Completed"
             }
         }
+		stage('Static Code Analysis') {
+            steps {
+                echo "Static code analysis in sonarcloud.io"
+				sh "gradlew sonarqube -Dsonar.projectKey=httpapplication -Dsonar.organization=jajodiatushar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a8db4e927077bc7374d41d0cb79669a21bde0023"
+            }
+        }
+		
         stage('Deploy') {
             steps {
                 echo "Deploying The Project Chat-Application"
