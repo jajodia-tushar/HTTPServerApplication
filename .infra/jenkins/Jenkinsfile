@@ -28,7 +28,7 @@ pipeline {
             }
         }
         stage('SonarQube analysis') {
-            step{
+            steps{
             withSonarQubeEnv() { // Will pick the global server connection you have configured
               sh "./gradle sonarqube -Dsonar.host.url=http://localhost:9000 -Dsonar.login=abbad3a04e006c318aeaf4462fe18586830ced6e"
             }
