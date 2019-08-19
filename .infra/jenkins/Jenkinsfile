@@ -37,6 +37,7 @@ pipeline {
 		stage('publishing') {
             steps {
                 echo "publishing the application to DockerHub"
+				sh "docker login -u jajodiatushar -p abc123ABC!@#"
 				sh "docker tag httpapplication:latest jajodiatushar/httpapplication:latest"
 				sh "docker push jajodiatushar/httpapplication:latest"
             }
