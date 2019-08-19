@@ -30,7 +30,11 @@ pipeline {
 		stage('Static Code Analysis') {
             steps {
                 echo "Static code analysis in sonarcloud.io"
-				sh "gradlew sonarqube -Dsonar.projectKey=httpapplication -Dsonar.organization=jajodiatushar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a8db4e927077bc7374d41d0cb79669a21bde0023"
+				sh "./gradlew sonarqube \
+					-Dsonar.projectKey=httpapplication \
+					-Dsonar.organization=jajodiatushar \
+					-Dsonar.host.url=https://sonarcloud.io \
+					-Dsonar.login=38835a74fe3e97383412f25c4b393216b9429b29"
             }
         }
 		
