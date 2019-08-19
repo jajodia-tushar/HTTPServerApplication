@@ -27,12 +27,7 @@ pipeline {
 				echo "Testing Completed"
             }
         }
-        stage('SonarQube analysis') {
-            steps{
-              sh "./gradlew sonarqube -Dsonar.host.url=http://localhost:9000 -Dsonar.login=abbad3a04e006c318aeaf4462fe18586830ced6e"
-            }
-          }
-        stage('Building Docker Images') {
+        stage('Deploy') {
             steps {
                 echo "Deploying The Project Chat-Application"
 				sh "docker build --no-cache -t 'httpapplication' -f .infra/docker/Dockerfile ."
