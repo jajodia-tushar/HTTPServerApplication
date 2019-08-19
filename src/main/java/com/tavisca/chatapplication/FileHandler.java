@@ -3,14 +3,14 @@ package com.tavisca.chatapplication;
 import java.io.*;
 
 public class FileHandler {
-    private String fileName;
+    private String nameOfFile;
 
-    public FileHandler(String fileName){
-        this.fileName = "files/"+fileName;
+    public FileHandler(String nameOfFile){
+        this.nameOfFile = "files/"+ nameOfFile;
     }
 
     public boolean exists(){
-        java.io.File file  = new java.io.File(this.fileName);
+        java.io.File file  = new java.io.File(this.nameOfFile);
         return file.exists();
     }
 
@@ -18,7 +18,7 @@ public class FileHandler {
         byte[] bytes = null; // What to do in this type of Situation
         if(exists()){
             try {
-                java.io.File file  = new java.io.File(this.fileName);
+                java.io.File file  = new java.io.File(this.nameOfFile);
                 FileInputStream fileInputStream = new FileInputStream(file);
                 bytes = new byte[(int)file.length()];
                 fileInputStream.read(bytes);
@@ -46,7 +46,7 @@ public class FileHandler {
     }
 
     public String getFileExtension(){
-        int i = this.fileName.lastIndexOf(".");
-        return this.fileName.substring(i+1);
+        int i = this.nameOfFile.lastIndexOf(".");
+        return this.nameOfFile.substring(i+1);
     }
 }
